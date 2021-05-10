@@ -4,10 +4,12 @@
     margin: 0;
     padding: 0;
     font-family: 'Lato', sans-serif;
+    text-align: center;
 }
 
 html {
     font-size: 16px;
+    text-align: center;
 }
 
 #main {
@@ -18,19 +20,61 @@ html {
 }
 
 .head {
-    text-align: center;
     padding: 20px 0;
 }
 
 #image {
     max-width: 100%;
     display: block;
-    height: auto;
+    height: 500px;
     margin: 0 auto;
 }
 
 #img-caption {
     padding: 15px 0;
-    text-align: center;
     font-size: 1.2rem;
+}
+
+.intro {
+    padding: 10px 30px;
+    text-align: justify;
+}
+
+ul {
+    max-width: 750px;
+    margin: 0 auto 25px auto;
+    line-height: 1.6rem;
+    text-align: left;
+    height: auto;
+    padding: 0 30px;
+}
+
+ul li {
+    text-align: justify;
+}
+
+
+.quote {
+    padding: 0 30px;
+    margin: 0 auto;
+    width: 70%;
+    text-align: justify;
+}
+
+#auth {
+    margin-left: 350px;
+    display: block;
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+#tribute-link {
+    text-decoration: none;
+    color: teal;
+}
+
+.last {
+    margin: 20px auto;
+    font-size: 1.5rem;
+    text-align: center;
 }
